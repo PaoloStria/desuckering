@@ -14,6 +14,22 @@ This repository contains the resources and materials developed for a thesis proj
 
 ---
 
+
+## 🏷️ Class Names
+
+The YOLOv11-Seg model was trained to segment the following classes:
+
+- `sucker` — undesired basal shoot (pollone)
+- `ground` — soil/background
+- `support` — vineyard support pole
+- `trunk` — main vine trunk
+- `watersprout` — undesired vigorous shoot (succhione)
+
+Feel free to adjust or expand the classes if you further fine-tune the model or extend the dataset.
+
+---
+
+
 ### 📥 Download the Dataset
 
 Due to GitHub file size restrictions, the full dataset is hosted externally on Zenodo.
@@ -35,7 +51,6 @@ The project materials can be used as a starting point for further development of
 
 ---
 
----
 
 ## 📊 Example: Model Performance
 
