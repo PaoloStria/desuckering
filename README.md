@@ -7,18 +7,19 @@ This repository contains the resources and materials developed for a thesis proj
 
 ### 📂 Repository Contents
 
-- 🗂️ **dataset.zip**  
-  Contains the annotated dataset used for training and evaluation.  
-  **Inside the archive you will find:**
-  - `frames_output1/` — Frames extracted from videos taken in vineyard under condition 1.
-  - `frames_output2/` — Frames extracted from videos taken in vineyard under condition 2.
-
-  > 🎥 Both folders contain frames extracted from hand-held video recordings, simulating the point of view of a mobile robot moving between vine rows. Each frame is annotated for instance segmentation (multi-class).
-
-- 🏅 **best.pt** — Trained weights of the YOLOv11-Seg model achieving the best performance.
+- 🗂️ **best.pt** — Trained weights of the YOLOv11-Seg model achieving the best performance.
 - 📊 **presentation.pptx** — Brief PowerPoint presentation summarizing the project, methodology, and main results.
+- 📥 **dataset** — The full dataset is **not stored directly in this repository** due to file size restrictions.  
+  Instead, you can download it from Zenodo (see below).
 
 ---
+
+### 📥 Download the Dataset
+
+Due to GitHub file size restrictions, the full dataset is hosted externally on Zenodo.
+
+Download it here:  
+➡️ [Automatic Detection of Suckers and Watersprouts – dataset (Zenodo)](https://zenodo.org/records/16020164)
 
 ## 🌱 Project Overview
 
