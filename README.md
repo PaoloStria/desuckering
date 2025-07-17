@@ -7,7 +7,14 @@ This repository contains the resources and materials developed for a thesis proj
 
 ### 📂 Repository Contents
 
-- 🗂️ **dataset.zip** — Archive containing all annotated images used for training and testing the model.
+- 🗂️ **dataset.zip**  
+  Contains the annotated dataset used for training and evaluation.  
+  **Inside the archive you will find:**
+  - `frames_output1/` — Frames extracted from videos taken in vineyard under condition 1.
+  - `frames_output2/` — Frames extracted from videos taken in vineyard under condition 2.
+
+  > 🎥 Both folders contain frames extracted from hand-held video recordings, simulating the point of view of a mobile robot moving between vine rows. Each frame is annotated for instance segmentation (multi-class).
+
 - 🏅 **best.pt** — Trained weights of the YOLOv11-Seg model achieving the best performance.
 - 📊 **presentation.pptx** — Brief PowerPoint presentation summarizing the project, methodology, and main results.
 
