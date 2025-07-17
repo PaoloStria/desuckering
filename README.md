@@ -8,7 +8,6 @@ This repository contains the resources and materials developed for a thesis proj
 ### 📂 Repository Contents
 
 - 🗂️ **best.pt** — Trained weights of the YOLOv11-Seg model achieving the best performance.
-- 📊 **presentation.pptx** — Brief PowerPoint presentation summarizing the project, methodology, and main results.
 - 📥 **dataset** — The full dataset is **not stored directly in this repository** due to file size restrictions.  
   Instead, you can download it from Zenodo (see below).
 
