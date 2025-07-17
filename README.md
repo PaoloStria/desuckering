@@ -53,4 +53,4 @@ If you use this dataset or code, please cite:
 
 For more information:  
 **Paolo Strianese**  
-[add your email or GitHub contact if you want]
+paolostria@gmail.com
