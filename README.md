@@ -1,2 +1,49 @@
-# desuckering
-Automatic Detection of Suckers and Watersprouts in Grapevines using Computer Vision Dataset, YOLOv11-Seg model, and supporting materials for the automatic segmentation of undesired grapevine shoots, aimed at robotic suckering. Includes annotated images, trained weights, scripts, and a summary presentation.
+# 🍇 Automatic Detection of Suckers and Watersprouts in Grapevines  
+## 🤖 Computer Vision for Robotic Suckering
+
+This repository contains the resources and materials developed for a thesis project on the automatic detection of suckers and watersprouts (undesired shoots) in grapevines, using state-of-the-art computer vision techniques. The system leverages YOLOv11-Seg instance segmentation models to support automated suckering operations in vineyards.
+
+---
+
+### 📂 Repository Contents
+
+- 🗂️ **dataset.zip** — Archive containing all annotated images used for training and testing the model.
+- 🏅 **best.pt** — Trained weights of the YOLOv11-Seg model achieving the best performance.
+- 📊 **presentation.pptx** — Brief PowerPoint presentation summarizing the project, methodology, and main results.
+
+---
+
+## 🌱 Project Overview
+
+Suckering is a fundamental operation in vineyard management: it involves removing non-productive shoots (suckers and watersprouts) that grow from the base or trunk of the vine, competing for vital resources and negatively affecting yield quality.
+
+This project presents a computer vision system designed to automatically detect these undesired shoots in the lower part of the vine. The workflow includes:
+
+- 🧑‍🌾 **Dataset creation**: Field data collection in a Tuscan vineyard, frame extraction, and multi-class manual/automatic annotation using Roboflow and the SAM2 model.
+- 🧠 **Model training**: Fine-tuning a YOLOv11-Seg instance segmentation model on the custom dataset (PSV-Seg), experimenting with data augmentation and preprocessing strategies.
+- 📈 **Evaluation**: Performance measured via precision, recall, F1-score, and confusion matrices, with detailed analysis of class-wise results and model limitations.
+
+The project materials can be used as a starting point for further development of robotic platforms for autonomous suckering, and as a dataset benchmark for future computer vision research in precision agriculture.
+
+---
+
+## ⚡ How to Use
+
+1. 📥 **Download and unzip** the dataset if you wish to train or test models.
+2. 🏋️‍♂️ **Use the provided weights** (`best.pt`) with YOLOv11-Seg-compatible code to run inference or continue fine-tuning.
+3. 📑 **Refer to the PowerPoint presentation** for a quick overview of objectives, methodology, results, and possible future directions.
+
+---
+
+## 📖 Citation
+
+If you use this dataset or code, please cite:  
+**Paolo Strianese**, "Automatic detection of suckers and watersprouts in grapevines: computer vision system for agricultural robots", University of Milano-Bicocca, 2025.
+
+---
+
+## 📬 Contact
+
+For more information:  
+**Paolo Strianese**  
+[add your email or GitHub contact if you want]
