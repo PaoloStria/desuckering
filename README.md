@@ -35,6 +35,20 @@ The project materials can be used as a starting point for further development of
 
 ---
 
+---
+
+## 📊 Example: Model Performance
+
+Below is the normalized confusion matrix obtained on the test set using the best YOLOv11-Seg model:
+
+<p align="center">
+  <img src="images/confusion_matrix.png" width="500"/>
+</p>
+
+*Confusion matrix showing class-wise segmentation performance.*
+
+---
+
 ## ⚡ How to Use
 
 1. 📥 **Download and unzip** the dataset if you wish to train or test models.
@@ -42,6 +56,13 @@ The project materials can be used as a starting point for further development of
 3. 📑 **Refer to the PowerPoint presentation** for a quick overview of objectives, methodology, results, and possible future directions.
 
 ---
+
+### 🔄 Model Fine-Tuning
+
+The provided `best.pt` weights can be used as a starting point for further fine-tuning on new datasets or under different conditions.  
+**To improve the detection of suckers (polloni), it is highly recommended to further expand the dataset with additional annotated images containing suckers, especially in varied lighting and environmental conditions.**
+
+
 
 ## 📖 Citation
 
