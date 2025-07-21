@@ -63,6 +63,19 @@ Below is the normalized confusion matrix obtained on the test set using the best
 
 ---
 
+🔎 Model Limitations & Future Work
+As shown in the confusion matrix above, the recognition rate for the sucker class is relatively low. However, this is still an encouraging result: the model was able to generalize and detect underrepresented classes, despite their scarcity in the training images.
+
+This limitation is mainly due to the fact that the new dataset is among the first specifically designed for the segmentation of grapevine shoots, with a strong focus on robotic consistency and environmental variability.
+Given the time constraints—the entire project was completed in just 3 months—it was not possible to collect more images or perform ultra-precise multi-class segmentation for every instance.
+
+Nonetheless, the current results demonstrate the potential of computer vision for autonomous sucker and watersprout detection in real-world vineyard scenarios.
+
+Future work will focus on expanding the dataset—especially with new annotated examples of the sucker class under a wider range of lighting and environmental conditions—and refining the annotation process.
+This will enable further improvements in detection performance and make the model more flexible and robust for practical deployment.
+
+---
+
 ## ⚡ How to Use
 
 1. 📥 **Download and unzip** the dataset if you wish to train or test models.
